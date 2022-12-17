@@ -1,0 +1,321 @@
+0000.000 (0) Opened log file at time: Fri, 16 Dec 2022 18:57:14 +0000 on http://localhost:8888/relaxy
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.21 (apache2handler, Darwin Shopnils-MacBook-Pro.local 22.1.0 Darwin Kernel Version 22.1.0: Sun Oct  9 20:15:09 PDT 2022; root:xnu-8792.41.9~2/RELEASE_ARM64_T6000 arm64) MySQL: 5.7.34 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 56.5M | 6.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 193300.1 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.003 (0) Semaphore (fd, wp_relaxy_options) being initialised
+0000.004 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.005 (0) Set semaphore last lock (fd) time to 2022-12-16 18:57:14
+0000.006 (0) Semaphore lock (fd) complete
+0000.007 (0) Backup run: resumption=0, nonce=7c54a9686ea8, file_nonce=7c54a9686ea8 begun at=1671217034 (0s ago), job type=backup
+0000.008 (0) Scheduling a resumption (1) after 300 seconds (1671217334) in case this run gets aborted
+0000.019 (0) Checking if we have a zip executable available
+0000.019 (0) Testing: /usr/bin/zip
+0000.025 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.025 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.026 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.026 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.026 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.032 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.032 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.039 (0) Working binary zip found: /usr/bin/zip
+0000.040 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.040 (0) Creation of backups of directories: beginning
+0000.042 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.222 (0) Total entities for the zip file: 887 directories, 3779 files (0 skipped as non-modified), 70.9 MB
+0000.226 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.229 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.232 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.235 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.238 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.241 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.244 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.247 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.251 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.253 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.254 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.5 MB, 3779 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.745 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: size is now: 6.50 MB
+0000.749 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1100 files added (on-disk size: 6683.6 KB)
+0000.752 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1200 files added (on-disk size: 6683.6 KB)
+0000.755 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1300 files added (on-disk size: 6683.6 KB)
+0000.758 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1400 files added (on-disk size: 6683.6 KB)
+0000.761 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1500 files added (on-disk size: 6683.6 KB)
+0000.764 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1600 files added (on-disk size: 6683.6 KB)
+0000.767 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1700 files added (on-disk size: 6683.6 KB)
+0000.770 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1800 files added (on-disk size: 6683.6 KB)
+0000.773 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 1900 files added (on-disk size: 6683.6 KB)
+0000.776 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2000 files added (on-disk size: 6683.6 KB)
+0000.776 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.8 MB, 3779 files batched, 1001 (2002) added so far); re-opening (prior size: 6683.6 KB)
+0001.045 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: size is now: 8.30 MB
+0001.050 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2100 files added (on-disk size: 8524.5 KB)
+0001.053 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2200 files added (on-disk size: 8524.5 KB)
+0001.056 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2300 files added (on-disk size: 8524.5 KB)
+0001.059 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2400 files added (on-disk size: 8524.5 KB)
+0001.062 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2500 files added (on-disk size: 8524.5 KB)
+0001.064 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 3779 files batched, 582 (2584) added so far); re-opening (prior size: 8524.5 KB)
+0001.966 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: size is now: 16.20 MB
+0001.967 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.6 s, rate: 15784.7 KB/s)
+0001.968 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6313190460205, normalised_time=1.6218242740815, max_time=1.9676229953766, data points known=1, old_max_bytes=26214400, new_max_bytes=96981160)
+0001.970 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2600 files added (on-disk size: 16547.6 KB)
+0001.972 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2700 files added (on-disk size: 16547.6 KB)
+0001.976 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2800 files added (on-disk size: 16547.6 KB)
+0001.979 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 2900 files added (on-disk size: 16547.6 KB)
+0001.982 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 3000 files added (on-disk size: 16547.6 KB)
+0001.985 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 3100 files added (on-disk size: 16547.6 KB)
+0001.988 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 3200 files added (on-disk size: 16547.6 KB)
+0001.991 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 3300 files added (on-disk size: 16547.6 KB)
+0001.994 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 3400 files added (on-disk size: 16547.6 KB)
+0001.997 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 3500 files added (on-disk size: 16547.6 KB)
+0001.999 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.4 MB, 3779 files batched, 1001 (3585) added so far); re-opening (prior size: 16547.6 KB)
+0002.730 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: size is now: 21.30 MB
+0002.733 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 3600 files added (on-disk size: 21779 KB)
+0002.736 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.tmp: 3700 files added (on-disk size: 21779 KB)
+0002.934 (0) Creating zip file manifest (backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip.list-temp.tmp)
+0002.946 (0) Successfully created zip file manifest (size: 310195)
+0003.370 (0) Created plugins zip (0) - 23393.9 KB in 3.3 s (7032.7 KB/s) (sha1: 29d8cbed90cb1fb0ebf71a149f721c1921d94baa, sha256: 287af06445ffef3dc8311f55c194cbee775de90ebc09cd2274f7c88f92d64d89)
+0003.376 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0003.377 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-907d9a544d5471480c14a20d97568852)
+0005.372 (0) Google Drive: quota usage: used=6975.9 MB, total=30720 MB, available=23744.1 MB
+0005.375 (0) Google Drive: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip: Attempting to upload to Google Drive (into folder id: 1XJaz2rLrgvTntnHmtwlyxojyfIQQMPnO)
+0007.007 (0) Googledrive chunked upload: 4.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 62.2 / 15)
+0009.812 (0) Googledrive chunked upload: 13.1 % uploaded (3145728)
+0012.011 (0) Googledrive chunked upload: 21.9 % uploaded (5242880 - increasing chunk size to 4096 KB - memory usage: 62.2 / 15)
+0016.766 (0) Googledrive chunked upload: 39.4 % uploaded (9437184)
+0020.519 (0) Googledrive chunked upload: 56.9 % uploaded (13631488)
+0024.038 (0) Googledrive chunked upload: 74.4 % uploaded (17825792)
+0031.377 (0) Googledrive chunked upload: 91.9 % uploaded (22020096)
+0035.702 (0) Googledrive chunked upload: 100 % uploaded (22020096)
+0035.709 (0) Google Drive: OK: Archive backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip uploaded in 30.33 seconds
+0035.710 (0) Recording as successfully uploaded: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip
+0035.713 (0) Deleting local file: backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip: OK
+0035.718 (0) Beginning creation of dump of themes (split every: 400 MB)
+0035.789 (0) Total entities for the zip file: 365 directories, 1051 files (0 skipped as non-modified), 36.2 MB
+0035.792 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.795 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.798 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.801 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0035.804 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0035.807 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0035.810 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0035.813 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0035.816 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0035.818 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0035.819 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (35.4 MB, 1051 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0037.091 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.tmp: size is now: 16.90 MB
+0037.165 (0) Creating zip file manifest (backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip.list-temp.tmp)
+0037.169 (0) Successfully created zip file manifest (size: 86296)
+0037.487 (0) Created themes zip (0) - 17552.6 KB in 1.8 s (9931.7 KB/s) (sha1: cf11eb94c03ae6f715410931a7492e41a14f0d40, sha256: 1f7990fdab575540a36176ff3eb344e86df4e831e9deae57d062dd933652a340)
+0037.490 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0037.491 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-907d9a544d5471480c14a20d97568852)
+0038.126 (0) Google Drive: quota usage: used=6998.8 MB, total=30720 MB, available=23721.2 MB
+0038.128 (0) Google Drive: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip: Attempting to upload to Google Drive (into folder id: 1XJaz2rLrgvTntnHmtwlyxojyfIQQMPnO)
+0039.759 (0) Googledrive chunked upload: 5.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 61.9 / 15)
+0041.153 (0) Googledrive chunked upload: 17.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 61.9 / 15)
+0045.086 (0) Googledrive chunked upload: 40.8 % uploaded (7340032)
+0049.795 (0) Googledrive chunked upload: 64.2 % uploaded (11534336)
+0052.737 (0) Googledrive chunked upload: 87.5 % uploaded (15728640)
+0058.219 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0058.221 (0) Google Drive: OK: Archive backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip uploaded in 20.09 seconds
+0058.221 (0) Recording as successfully uploaded: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip
+0058.223 (0) Deleting local file: backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip: OK
+0058.225 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0058.225 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/relaxy/wp-content/uploads
+0058.225 (0) finding files: 2022: adding to list (1)
+0058.226 (0) finding files: wpforms: adding to list (2)
+0058.226 (0) finding files: elementor: adding to list (3)
+0058.226 (0) finding files: 2021: adding to list (4)
+0058.227 (0) finding files: 2020: adding to list (5)
+0058.227 (0) finding files: astra-sites: adding to list (6)
+0058.227 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0058.240 (0) Total entities for the zip file: 13 directories, 317 files (0 skipped as non-modified), 25.5 MB
+0058.244 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0058.246 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0058.249 (0) Zip: backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0058.633 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip.tmp: size is now: 21.20 MB
+0058.640 (0) Creating zip file manifest (backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip.list-temp.tmp)
+0058.642 (0) Successfully created zip file manifest (size: 17609)
+0059.037 (0) Created uploads zip (0) - 21703.9 KB in 0.8 s (26859.2 KB/s) (sha1: a5d746b03d9dad729ab1eadc743c589c8e05747d, sha256: cb13f168c27228acd21a0f446f5a84ad7be5d8b12461b4c548e645b468799874)
+0059.039 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0059.040 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-907d9a544d5471480c14a20d97568852)
+0059.611 (0) Google Drive: quota usage: used=7015.9 MB, total=30720 MB, available=23704.1 MB
+0059.613 (0) Google Drive: backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1XJaz2rLrgvTntnHmtwlyxojyfIQQMPnO)
+0061.341 (0) Googledrive chunked upload: 4.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 61.7 / 15)
+0065.506 (0) Googledrive chunked upload: 14.2 % uploaded (3145728)
+0066.987 (0) Googledrive chunked upload: 23.6 % uploaded (5242880 - increasing chunk size to 4096 KB - memory usage: 61.7 / 15)
+0072.183 (0) Googledrive chunked upload: 42.5 % uploaded (9437184)
+0075.938 (0) Googledrive chunked upload: 61.3 % uploaded (13631488)
+0082.035 (0) Googledrive chunked upload: 80.2 % uploaded (17825792)
+0142.046 (0) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: /Applications/MAMP/htdocs/relaxy/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0143.727 (0) Googledrive chunked upload: 4.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 65.8 / 19)
+0145.438 (0) Googledrive chunked upload: 14.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 65.8 / 19)
+0149.276 (0) Googledrive chunked upload: 33 % uploaded (7340032)
+0152.689 (0) Googledrive chunked upload: 51.9 % uploaded (11534336)
+0155.878 (0) Googledrive chunked upload: 70.8 % uploaded (15728640)
+0159.301 (0) Googledrive chunked upload: 89.6 % uploaded (19922944)
+0162.038 (0) Googledrive chunked upload: 100 % uploaded (19922944)
+0162.048 (0) Google Drive: OK: Archive backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip uploaded in 102.43 seconds
+0162.050 (0) Recording as successfully uploaded: backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip
+0162.054 (0) Deleting local file: backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip: OK
+0162.058 (0) Beginning backup of other directories found in the content directory (index: 0)
+0162.059 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0162.059 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/relaxy/wp-content
+0162.060 (0) finding files: upgrade: skipping: excluded by options
+0162.061 (0) finding files: index.php: adding to list (1)
+0162.061 (0) finding files: plugins: skipping: this is the plugins directory
+0162.062 (0) finding files: uploads: skipping: this is the uploads directory
+0162.062 (0) finding files: updraft: skipping: this is the updraft directory
+0162.063 (0) finding files: themes: skipping: this is the themes directory
+0162.066 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0162.080 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-others.zip.tmp: size is now: 0.00 MB
+0162.084 (0) Creating zip file manifest (backup_2022-12-16-1857_relaxy_7c54a9686ea8-others.zip.list-temp.tmp)
+0162.085 (0) Successfully created zip file manifest (size: 43)
+0162.088 (0) Created others zip (0) - 0.2 KB in 0 s (8.1 KB/s) (sha1: e7382302db700186bc59bc8a3fed394777e5f0c6, sha256: e9b8193158c4928d6484bf1baa0ee41daaf838ba0eb10daff3c4294949d4df42)
+0162.091 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0162.091 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-907d9a544d5471480c14a20d97568852)
+0162.687 (0) Google Drive: quota usage: used=7037.1 MB, total=30720 MB, available=23682.9 MB
+0162.691 (0) Google Drive: backup_2022-12-16-1857_relaxy_7c54a9686ea8-others.zip: Attempting to upload to Google Drive (into folder id: 1XJaz2rLrgvTntnHmtwlyxojyfIQQMPnO)
+0165.263 (0) Googledrive chunked upload: 100 % uploaded
+0165.265 (0) Google Drive: OK: Archive backup_2022-12-16-1857_relaxy_7c54a9686ea8-others.zip uploaded in 2.57 seconds
+0165.266 (0) Recording as successfully uploaded: backup_2022-12-16-1857_relaxy_7c54a9686ea8-others.zip
+0165.267 (0) Deleting local file: backup_2022-12-16-1857_relaxy_7c54a9686ea8-others.zip: OK
+0165.270 (0) Saving backup status to database (elements: 8)
+0165.271 (0) Beginning creation of database dump (WordPress DB)
+0165.272 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0165.284 (0) Table wp_relaxy_options: Total expected rows (via COUNT): 373
+0165.285 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0165.570 (0) Table wp_relaxy_options: Rows added in this batch (next record: 1635): 369 (uncompressed bytes in this segment=6961251) in 0.29 seconds
+0165.575 (0) Table wp_relaxy_options: finishing file(s) (2, 779.9 KB)
+0165.577 (0) Table wp_relaxy_users: Total expected rows (via COUNT): 1
+0165.577 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0165.578 (0) Table wp_relaxy_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1456) in 0.00 seconds
+0165.580 (0) Table wp_relaxy_users: finishing file(s) (2, 0.6 KB)
+0165.583 (0) Table wp_relaxy_usermeta: Total expected rows (via COUNT): 22
+0165.583 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0165.584 (0) Table wp_relaxy_usermeta: Rows added in this batch (next record: 24): 22 (uncompressed bytes in this segment=2624) in 0.00 seconds
+0165.586 (0) Table wp_relaxy_usermeta: finishing file(s) (2, 1.2 KB)
+0165.588 (0) Table wp_relaxy_actionscheduler_actions: Total expected rows (via COUNT): 28
+0165.589 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0165.590 (0) Table wp_relaxy_actionscheduler_actions: Rows added in this batch (next record: 35): 28 (uncompressed bytes in this segment=12043) in 0.00 seconds
+0165.593 (0) Table wp_relaxy_actionscheduler_actions: finishing file(s) (2, 1.5 KB)
+0165.594 (0) Table wp_relaxy_actionscheduler_claims: Total expected rows (via COUNT): 0
+0165.595 (0) Table wp_relaxy_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.00 seconds
+0165.598 (0) Table wp_relaxy_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0165.599 (0) Table wp_relaxy_actionscheduler_groups: Total expected rows (via COUNT): 2
+0165.600 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0165.601 (0) Table wp_relaxy_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=755) in 0.00 seconds
+0165.603 (0) Table wp_relaxy_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0165.604 (0) Table wp_relaxy_actionscheduler_logs: Total expected rows (via COUNT): 76
+0165.604 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0165.606 (0) Table wp_relaxy_actionscheduler_logs: Rows added in this batch (next record: 76): 76 (uncompressed bytes in this segment=7254) in 0.00 seconds
+0165.608 (0) Table wp_relaxy_actionscheduler_logs: finishing file(s) (2, 1.1 KB)
+0165.610 (0) Table wp_relaxy_commentmeta: Total expected rows (via COUNT): 0
+0165.611 (0) Table wp_relaxy_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0165.614 (0) Table wp_relaxy_commentmeta: finishing file(s) (2, 0.4 KB)
+0165.615 (0) Table wp_relaxy_comments: Total expected rows (via COUNT): 1
+0165.616 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0165.617 (0) Table wp_relaxy_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2190) in 0.00 seconds
+0165.619 (0) Table wp_relaxy_comments: finishing file(s) (2, 0.8 KB)
+0165.621 (0) Table wp_relaxy_links: Total expected rows (via COUNT): 0
+0165.622 (0) Table wp_relaxy_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1352) in 0.00 seconds
+0165.623 (0) Table wp_relaxy_links: finishing file(s) (2, 0.5 KB)
+0165.638 (0) Table wp_relaxy_postmeta: Total expected rows (approximate): 1801
+0166.110 (0) Table wp_relaxy_postmeta: Rows added in this batch (next record: 2632): 1643 (uncompressed bytes in this segment=9015424) in 0.49 seconds
+0166.115 (0) Table wp_relaxy_postmeta: finishing file(s) (2, 2914.2 KB)
+0166.120 (0) Table wp_relaxy_posts: Total expected rows (via COUNT): 282
+0166.121 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0166.160 (0) Table wp_relaxy_posts: Rows added in this batch (next record: 570): 282 (uncompressed bytes in this segment=1197240) in 0.04 seconds
+0166.164 (0) Table wp_relaxy_posts: finishing file(s) (2, 52.8 KB)
+0166.165 (0) Table wp_relaxy_term_relationships: Total expected rows (approximate): 17
+0166.167 (0) Table wp_relaxy_term_relationships: Rows added in this batch (next record: 100000): 17 (uncompressed bytes in this segment=976) in 0.00 seconds
+0166.168 (0) Table wp_relaxy_term_relationships: finishing file(s) (2, 0.4 KB)
+0166.171 (0) Table wp_relaxy_term_taxonomy: Total expected rows (via COUNT): 5
+0166.171 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0166.172 (0) Table wp_relaxy_term_taxonomy: Rows added in this batch (next record: 8): 5 (uncompressed bytes in this segment=1099) in 0.00 seconds
+0166.175 (0) Table wp_relaxy_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0166.177 (0) Table wp_relaxy_termmeta: Total expected rows (via COUNT): 3
+0166.177 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0166.177 (0) Table wp_relaxy_termmeta: Rows added in this batch (next record: 6): 3 (uncompressed bytes in this segment=889) in 0.00 seconds
+0166.180 (0) Table wp_relaxy_termmeta: finishing file(s) (2, 0.5 KB)
+0166.181 (0) Table wp_relaxy_terms: Total expected rows (via COUNT): 5
+0166.182 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0166.183 (0) Table wp_relaxy_terms: Rows added in this batch (next record: 8): 5 (uncompressed bytes in this segment=915) in 0.00 seconds
+0166.185 (0) Table wp_relaxy_terms: finishing file(s) (2, 0.5 KB)
+0166.186 (0) Table wp_relaxy_e_events: Total expected rows (via COUNT): 0
+0166.187 (0) Table wp_relaxy_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.00 seconds
+0166.189 (0) Table wp_relaxy_e_events: finishing file(s) (2, 0.4 KB)
+0166.191 (0) Table wp_relaxy_wpforms_tasks_meta: Total expected rows (via COUNT): 3
+0166.191 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0166.192 (0) Table wp_relaxy_wpforms_tasks_meta: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=948) in 0.00 seconds
+0166.195 (0) Table wp_relaxy_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0166.195 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_options.table.tmpr1636.gz (1/18/fopen): adding to final database dump
+0166.205 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_options.table.gz (2/18/fopen): adding to final database dump
+0166.206 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_users.table.tmpr2.gz (3/18/fopen): adding to final database dump
+0166.206 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_users.table.gz (4/18/fopen): adding to final database dump
+0166.206 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_usermeta.table.tmpr25.gz (5/18/fopen): adding to final database dump
+0166.207 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_usermeta.table.gz (6/18/fopen): adding to final database dump
+0166.207 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_actionscheduler_actions.table.tmpr36.gz (7/18/fopen): adding to final database dump
+0166.207 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_actionscheduler_actions.table.gz (8/18/fopen): adding to final database dump
+0166.208 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_actionscheduler_claims.table.tmpr0.gz (9/18/fopen): adding to final database dump
+0166.208 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_actionscheduler_claims.table.gz (10/18/fopen): adding to final database dump
+0166.208 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_actionscheduler_groups.table.tmpr3.gz (11/18/fopen): adding to final database dump
+0166.208 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_actionscheduler_groups.table.gz (12/18/fopen): adding to final database dump
+0166.209 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_actionscheduler_logs.table.tmpr77.gz (13/18/fopen): adding to final database dump
+0166.209 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_actionscheduler_logs.table.gz (14/18/fopen): adding to final database dump
+0166.209 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_commentmeta.table.tmpr0.gz (15/18/fopen): adding to final database dump
+0166.209 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_commentmeta.table.gz (16/18/fopen): adding to final database dump
+0166.210 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_comments.table.tmpr2.gz (17/18/fopen): adding to final database dump
+0166.210 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_comments.table.gz (18/18/fopen): adding to final database dump
+0166.210 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_links.table.tmpr0.gz (19/18/fopen): adding to final database dump
+0166.211 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_links.table.gz (20/18/fopen): adding to final database dump
+0166.211 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_postmeta.table.tmpr2633.gz (21/18/fopen): adding to final database dump
+0166.246 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_postmeta.table.gz (22/18/fopen): adding to final database dump
+0166.247 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_posts.table.tmpr571.gz (23/18/fopen): adding to final database dump
+0166.248 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_posts.table.gz (24/18/fopen): adding to final database dump
+0166.248 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_term_relationships.table.tmpr100001.gz (25/18/fopen): adding to final database dump
+0166.249 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_term_relationships.table.gz (26/18/fopen): adding to final database dump
+0166.249 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_term_taxonomy.table.tmpr9.gz (27/18/fopen): adding to final database dump
+0166.250 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_term_taxonomy.table.gz (28/18/fopen): adding to final database dump
+0166.250 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_termmeta.table.tmpr7.gz (29/18/fopen): adding to final database dump
+0166.250 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_termmeta.table.gz (30/18/fopen): adding to final database dump
+0166.251 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_terms.table.tmpr9.gz (31/18/fopen): adding to final database dump
+0166.251 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_terms.table.gz (32/18/fopen): adding to final database dump
+0166.251 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_e_events.table.tmpr0.gz (33/18/fopen): adding to final database dump
+0166.251 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_e_events.table.gz (34/18/fopen): adding to final database dump
+0166.252 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_wpforms_tasks_meta.table.tmpr5.gz (35/18/fopen): adding to final database dump
+0166.252 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db-table-wp_relaxy_wpforms_tasks_meta.table.gz (36/18/fopen): adding to final database dump
+0166.255 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db.gz: finished writing out complete database file (3756.8 KB)
+0166.328 (0) Total database tables backed up: 18 (backup_2022-12-16-1857_relaxy_7c54a9686ea8-db.gz, size: 3847110, sha1: 6fe1b22c8a56e6ac5824b999c448b265b5dc8f68, sha256: fc0d0a918099f7907ad4e7d60a32ecf6bb0089eb47517df96139f2ea2228f37b)
+0166.330 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-plugins.zip: plugins: This file has already been successfully uploaded
+0166.331 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-themes.zip: themes: This file has already been successfully uploaded
+0166.331 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-uploads.zip: uploads: This file has already been successfully uploaded
+0166.331 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-others.zip: others: This file has already been successfully uploaded
+0166.331 (0) backup_2022-12-16-1857_relaxy_7c54a9686ea8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0166.332 (0) Saving backup history. Total backup size: 64.9 MB
+0166.333 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0166.334 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0166.335 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-907d9a544d5471480c14a20d97568852)
+0166.975 (0) Google Drive: quota usage: used=7037.1 MB, total=30720 MB, available=23682.9 MB
+0166.978 (0) Google Drive: backup_2022-12-16-1857_relaxy_7c54a9686ea8-db.gz: Attempting to upload to Google Drive (into folder id: 1XJaz2rLrgvTntnHmtwlyxojyfIQQMPnO)
+0169.226 (0) Googledrive chunked upload: 27.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 61.7 / 33)
+0170.712 (0) Googledrive chunked upload: 81.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 61.7 / 33)
+0172.942 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0172.951 (0) Google Drive: OK: Archive backup_2022-12-16-1857_relaxy_7c54a9686ea8-db.gz uploaded in 5.97 seconds
+0172.952 (0) Recording as successfully uploaded: backup_2022-12-16-1857_relaxy_7c54a9686ea8-db.gz
+0172.955 (0) Deleting local file: backup_2022-12-16-1857_relaxy_7c54a9686ea8-db.gz: OK
+0172.957 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0172.959 (0) Number of backup sets in history: 1; groups (db): 1
+0172.959 (0) Examining (for databases) backup set with group_id=0, nonce=7c54a9686ea8, datestamp=1671217034 (Dec 16 2022 18:57:14)
+0172.960 (0) This backup set is the backup set just made, so will not be deleted.
+0172.960 (0) Number of backup sets in history: 1; groups (files): 1
+0172.960 (0) Examining (for files) backup set with nonce=7c54a9686ea8, datestamp=1671217034 (Dec 16 2022 18:57:14)
+0172.960 (0) This backup set is the backup set just made, so will not be deleted.
+0172.961 (0) This backup set is the backup set just made, so will not be deleted.
+0172.961 (0) This backup set is the backup set just made, so will not be deleted.
+0172.961 (0) This backup set is the backup set just made, so will not be deleted.
+0172.961 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0172.962 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0172.964 (0) Resume backup (7c54a9686ea8, 0): finish run
+0172.966 (0) Decremented the semaphore (fd) by 1
+0172.967 (0) Semaphore (fd) unlocked
+0172.967 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0172.970 (0) No email will/can be sent - the user has not configured an email address.
+0172.970 (0) The backup apparently succeeded and is now complete
