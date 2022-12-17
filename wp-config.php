@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'relaxy_database' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'relaxydb' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'relaxy@jahnjoyshopnil' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -80,6 +80,14 @@ $table_prefix = 'wp_relaxy_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+define( 'FS_METHOD', 'direct' );
+define( 'AS3CF_SETTINGS', serialize( array(
+	'provider' => 'aws',
+	'access-key-id' => 'AKIA35K2I3WFDRBGKTEN',
+	'secret-access-key' => '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',
+) ) );
+
+
 
 /* Add any custom values between this line and the "stop editing" line. */
 
